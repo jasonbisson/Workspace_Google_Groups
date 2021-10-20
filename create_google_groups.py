@@ -27,7 +27,7 @@ def main():
     with open('groups.csv', "r") as csv_file:
         csv_reader = csv.reader(csv_file)
         for row in csv_reader:
-            group = { "name": row[0], "email": row[0], "adminCreated": True, "description": row[0]}
+            group = { "name": row[0], "email": row[0], "adminCreated": True, "description": row[1]}
             results = service.groups().insert(body=group).execute()
             print(results["email"])
 
