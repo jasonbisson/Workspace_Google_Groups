@@ -18,15 +18,12 @@ pip install --upgrade google-api-python-client google-auth-oauthlib
 This [document](https://googleapis.github.io/google-api-python-client/docs/oauth.html) describes OAuth 2.0, when to use it, how to acquire client IDs, and how to use it with the Google APIs Client Library for Python.
 
 ### Create a data file with the list of groups 
-
 ```
-teraminated_employee@example.com,
+teraminated_employee@example.com,Group to force conflict account for terminated employee
 ```
-
-
 ## Run Script
 ```
-
+python3 create_google_groups.py
 ```
 
 
