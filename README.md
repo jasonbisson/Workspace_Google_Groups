@@ -15,7 +15,7 @@ pip install --upgrade google-api-python-client google-auth-oauthlib
 ```
 ### Create Oauth Client secret
 
-This [document](https://googleapis.github.io/google-api-python-client/docs/oauth.html) describes OAuth 2.0, when to use it, how to acquire client IDs, and how to use it with the Google APIs Client Library for Python.
+This [document](https://developers.google.com/identity/protocols/oauth2/native-app#creatingcred) describes OAuth 2.0, when to use it, how to acquire desktop app client IDs, and how to use it with the Google APIs Client Library for Python.
 
 ### Create a data file with the list of groups 
 ```
