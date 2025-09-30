@@ -35,11 +35,10 @@ The service account or user executing the script requires the following minimum 
 
 ### 4. Create a Data File
 The script requires a data file named **`former_employees.csv`** in the same directory. This file must contain the list of former employee corporate email addresses, with one email per line:
-
-# former_employees.csv example
+```
 user.one@example.com
 user.two@example.com
-
+```
 ### 5. Run script
 
 The script uses long-form flags (`--organization-id`, `--action`) for clear, order-independent execution.
