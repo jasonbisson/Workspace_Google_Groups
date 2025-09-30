@@ -49,7 +49,7 @@ The script uses long-form flags (`--organization-id`, `--action`) for clear, ord
 | **DELETE** | `./bulk_group_update.sh --organization-id 123456789012 --action delete` | Deletes the Google Group for each email in the CSV file. |
 
 
-## Review Audit Logging
+### 6. Review Audit Logging
 
 The operations are recorded in Cloud Audit Logs. You can monitor the success or failure of the bulk operations by searching at the **Organizational level** with the following log filter:
 
