@@ -19,7 +19,7 @@ The script uses the `gcloud identity groups` commands, which rely on the Cloud I
 ```
 gcloud services enable cloudidentity.googleapis.com --project <project_id_for_execution>
 ```
-*Note: Replace `<project_id_for_execution>` with the project you are running the script from.*
+*Note: Replace `<project_id_for_execution>` with the project that will execute the services calls to Cloud Identity*
 
 ### 2. Set up Application Default Credentials (ADC)
 The script needs proper authentication to run the `gcloud` commands. This [document](https://cloud.google.com/docs/authentication/provide-credentials-adc) provides options on how to authenticate the execution environment (e.g., as a human user or a service account).
