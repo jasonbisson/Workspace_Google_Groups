@@ -16,9 +16,9 @@ If you are unfamiliar with what a conflicting account is, the best guide is foun
 ### 1. Enable Cloud Identity API
 The script uses the `gcloud identity groups` commands, which rely on the Cloud Identity API. Enable it using the following command:
 
-```bash
+```
 gcloud services enable cloudidentity.googleapis.com --project <project_id_for_execution>
-
+```
 *Note: Replace `<project_id_for_execution>` with the project you are running the script from.*
 
 ### 2. Set up Application Default Credentials (ADC)
